@@ -1,0 +1,12 @@
+<form action="<%=users_url%>" method="POST">
+    <label>Email:
+        <input type='text' name='user[email]' value='<%@user.email%>'>
+    </label>
+    <br>
+    <label>Password:
+        <input type='password' name='user[password]' value='<%@user.password%>'>
+    </label>
+    <br>
+
+    <input type="submit" value="Sign up">
+</form>

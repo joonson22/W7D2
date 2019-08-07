@@ -1,0 +1,7 @@
+<ul>
+    <li> <%= @bands.name%></li>
+    <form action='<%=band_url%>' method='POST'>
+        <input type='hidden' name='_method' value='DELETE'>
+        <input type='submit' value='Fook this band'>
+    </form>
+</ul>
